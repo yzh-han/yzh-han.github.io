@@ -40,21 +40,26 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
+
     <!-- News -->
+    {% comment %} 
     {% if page.announcements and page.announcements.enabled %}
       <h2>
         <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
       </h2>
       {% include news.liquid limit=true %}
-    {% endif %}
+    {% endif %} 
+    {% endcomment %}
 
     <!-- Latest posts -->
+    {% comment %} 
     {% if page.latest_posts and page.latest_posts.enabled %}
       <h2>
         <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
       </h2>
       {% include latest_posts.liquid %}
-    {% endif %}
+    {% endif %} 
+    {% endcomment %}
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
@@ -62,6 +67,27 @@ layout: default
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
       </h2>
       {% include selected_papers.liquid %}
+    {% endif %}
+
+    <!-- Repositories -->
+    {% if page.repositories %}
+      <h2>
+        <a href="{{ '/repositories/' | relative_url }}" style="color: inherit">repositories</a>
+      </h2>
+      {% if site.data.repositories.github_users %}
+        <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+          {% for user in site.data.repositories.github_users %}
+            {% include repository/repo_user.liquid username=user %}
+          {% endfor %}
+        </div>
+      {% endif %}
+      {% if site.data.repositories.github_repos %}
+        <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+          {% for repo in site.data.repositories.github_repos %}
+            {% include repository/repo.liquid repository=repo %}
+          {% endfor %}
+        </div>
+      {% endif %}
     {% endif %}
 
     <!-- Social -->

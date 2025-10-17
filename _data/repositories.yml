@@ -1,14 +1,15 @@
 github_users:
-  - torvalds
-  - alshedivat
+  # - yzh-han
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  # - yzh-han/yzh-han.github.io
+  # add other repositories you want to showcase here
+  - yzh-han/cluster-moe
+  - yzh-han/lan-multicast-fileshare
+  - yzh-han/cache-simulator
+  - yzh-han/branch-predictor
+  - yzh-han/water-pump-status-prediction
+  - yzh-han/flight-route-search
+  - yzh-han/school-absence-analysis
