@@ -30,9 +30,15 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Currently, I finish my Master study in computer science at the [University of St Andrews](https://www.st-andrews.ac.uk/), 
-and expected to get degree with distinction in Dec. Previously, I complete my B.S. in computer science at [North China Electric Power University](https://english.ncepu.edu.cn/).
-I also have a two-year urban study experence at the [University of Glasgow](https://www.gla.ac.uk/).
+My principal research interest is in **distributed & intelligent systems**, especially how to make machine learning workloads run efficiently and adaptively across cloud–edge–device environments. I have experience working on federated continual learning, distributed optimization, and system-level coordination, applying these ideas to problems like resource scheduling and network optimization. One of my recent projects, [Cluster-MoE](https://github.com/yzh-han/cluster-moe), proposed an adaptive scheduling framework for asynchronous drift in federated learning, achieving notable efficiency improvements over existing approaches.
+
+Moreover, I am interested in the system-level challenges of **distributed AI inference**, particularly how heterogeneous computing nodes can coordinate and reuse inference caches effectively. In the future, I hope to explore ways to address these challenges and reduce redundant computation, improving the latency and energy efficiency of large-scale AI systems across cloud–edge–device environments.
+
+Currently, I completed my Master study in Computer Science (with Distinction) at the [University of St Andrews](https://www.st-andrews.ac.uk/),
+where I was listed on the Dean’s List for academic excellence.
+Previously, I completed my B.S. in Computer Science at [North China Electric Power University](https://english.ncepu.edu.cn/).
+I also have a two-year experience in Urban Studies at the [University of Glasgow](https://www.gla.ac.uk/),
+which helped me develop an interdisciplinary perspective on intelligent systems in real-world environments.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
