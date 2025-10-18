@@ -30,11 +30,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-My principal research interest is in **distributed & intelligent systems**, especially how to make machine learning workloads run efficiently and adaptively across cloud–edge–device environments.
-
 My principal research interest lies in **distributed & intelligent systems**, with a focus on making machine learning workloads—such as those in computer vision and large language models—run efficiently and adaptively across heterogeneous cloud–edge–device environments.
 
-I have experience working on federated continual learning, distributed optimization, and system-level coordination, applying these ideas to problems like resource scheduling, inference acceleration, and network optimization. One of my recent projects, [Cluster-MoE](https://github.com/yzh-han/cluster-moe), proposed an adaptive scheduling framework for asynchronous drift in federated learning, achieving notable efficiency improvements over existing approaches.
+I have experience researching on federated continual learning, distributed optimization, and system-level coordination, applying these ideas to problems like resource scheduling, inference acceleration, and network optimization. One of my recent projects, [Cluster-MoE](https://github.com/yzh-han/cluster-moe), proposed an adaptive scheduling framework for asynchronous drift in federated learning, achieving notable efficiency improvements over existing approaches.
 
 Moreover, I am interested in the system-level challenges of **distributed AI inference**, particularly how heterogeneous computing nodes can coordinate and reuse inference caches effectively. 
 In the future, I hope to extend these ideas to **large-scale AI systems**, including **computer vision** and **language models**, where distributed models must process vast streams of visual and textual data under strict latency, bandwidth, and energy constraints.
